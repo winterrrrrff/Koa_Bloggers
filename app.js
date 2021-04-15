@@ -69,6 +69,7 @@ router.get("/test", context => {
 // });
 
 let port = process.env.PORT || 80;
-app.listen(port);
+let host = process.env.HOST || "0.0.0.0"
+app.listen(port, host);
 console.log("Server started...");
 console.log('Listening to %s', port);
