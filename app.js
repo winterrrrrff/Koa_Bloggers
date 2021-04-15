@@ -68,7 +68,7 @@ router.get("/test", context => {
 //     console.log("Server started...")
 // });
 
-let port = process.env.PORT || 1234;
+let port = process.env.PORT || 80;
 app.listen(port);
 console.log("Server started...");
 console.log('Listening to %s', port);
