@@ -20,7 +20,9 @@ const posts = ["We’ve not moved for ages.\n" +
 "\n" +
 "Above, Rapallo-chuted, thermal-suited, oxygen-tanked daredevils crisscross the aurora, surfing the dancing green-gold: Tourists riding boards among colors of my soul.\n" +
 "\n" +
-"I stab my harpoon into shelf-ice and walk away."];
+"I stab my harpoon into shelf-ice and walk away.", "在用Koa之前我从来没有接触过，所以首先我是看了一下Koa的文档还有一些教程，学习了一下怎么用。然后根据那些文档和教程把一些该安装和设置的东西都弄好了。\n" +
+"然后在网上搜了用bootstrap这个东西来弄前端。期间我感觉deploy网站遇到了一些难题，虽然deploy上去heroku了，但一直加载不出东西。后来问了一个朋友，才知道因为heroku的问题，devDependency那里的东西要挪到dependency那里。\n" +
+"其次就是从localhost搬到网上要改那个port，这个也搜了好一会。最后就是前端感觉还是不是很得心应手。"];
 
 
 app.use(bodyParser());
